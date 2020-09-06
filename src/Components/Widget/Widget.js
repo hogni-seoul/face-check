@@ -23,6 +23,8 @@ function Widget() {
 export default Widget;
 
 const Iframe = styled.iframe`
+  position: sticky;
+  top: 0;
   width: 360px;
   height: 100vh;
   border: none;
